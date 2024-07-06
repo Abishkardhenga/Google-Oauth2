@@ -1,0 +1,101 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+    background-color: #f0f0f0;
+    padding: 24px;
+}
+
+.loginBox {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.loginBox h1 {
+    margin-bottom: 20px;
+}
+
+.inputGroup {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.inputGroup p {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginButton, .googleButton {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginButton {
+    background-color: #007BFF;
+}
+
+.loginButton:hover {
+    background-color: #0056b3;
+}
+
+.googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #757575;
+    border: 1px solid #ccc;
+}
+
+.googleButton:hover {
+    background-color: #f0f0f0;
+}
+
+.googleButton svg {
+    margin-right: 8px;
+}
+
+.registerLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.registerLink p {
+    margin: 0;
+}
+
+.notRegistered {
+    color: black;
+    margin-right: 5px;
+}
+
+.createAccount {
+    color: #007BFF;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.createAccount:hover {
+    text-decoration: underline;
+}
